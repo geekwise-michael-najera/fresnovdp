@@ -18,7 +18,7 @@ main{
     color: blue;
     
 }
-
+#timeline{text-align: center;}
 header{ 
         width: 100%;
         height: 100%;
@@ -37,4 +37,4 @@ footer{
     
 } 
 #usa{margin-left: 12%;}
-#tablemt{margin-left: 20%}
+#tablemt{margin-left: 43%}
