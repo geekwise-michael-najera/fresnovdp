@@ -1,14 +1,16 @@
 html 
 body{
-    background-image: url(http://i.imgur.com/Py6I0rF.jpg);
+    background-color: white;
     width: 100%;
     height: 100%;
     padding: 0;
     margin: 0;}
 
+
+
 main{
     background-color: blue;
-    width: 80%;
+    width: 90%;
     height: 100%;
     padding:0;
     margin-left: 10%;
@@ -36,6 +38,17 @@ header{
         text-align: center;
         background-color: red;}
 
+/* aboutus */
+
+    #aboutus{
+            background-color: blue;
+            }
+    #theGMP{center: 
+            }
+    #GMH{background-color: orange; }
+
+
+
 footer{
         width: 100%;
         height: 10%;
@@ -45,5 +58,4 @@ footer{
         text-align: center;
         #usa{margin-left: 25%;}
         #tablemt{margin-left: 25%}
-}
-   
+
