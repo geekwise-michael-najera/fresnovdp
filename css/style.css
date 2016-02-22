@@ -1,64 +1,72 @@
-html 
-body{
-    background-color: white;
+html,body{
     width: 100%;
     height: 100%;
     padding: 0;
-    margin: 0;}
+    margin: 0;
+    box-sizing: border-box;
+    
+}
 
+header{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    height: 6rem;
+    background-color: red;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    height: 3rem;
+    width: 100%;
+}
+
+nav{ 
+    padding: 0;
+    margin: 0;
+    
+    }
+nav> ul{ 
+    padding: 0;
+    margin: 0;
+    height: 90px;
+    
+}
+nav>ul>li{
+        display:inline;
+        padding: 0;
+        margin: 0;
+        width: calc(100%/6); 
+        float:left;
+}
+a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration:underline;
+}
 
 
 main{
     background-color: blue;
-    width: 90%;
+    width: 80%;
     height: 100%;
     padding:0;
-    margin-left: 10%;
     text-align: center;
     color: red;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }  
+#sec1{ 
+    }
 
-
-nav ul { 
-        list-style: none;
-        padding: 0;
-        margin: 0;}
-nav li {display: inline;
-        border: solid;
-        border-width: 1px 1px 0 1px
-        }
-
-#timeline{text-align: center;}
-header{ 
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        background-color: red;}
-
-/* aboutus */
-
-    #aboutus{
-            background-color: blue;
-            }
-    #theGMP{center: 
-            }
-    #GMH{background-color: orange; }
+#sec2{
     
-    #CAPT{width: 300;
-          height: 300; 
 }
 
 
-footer{
-        width: 100%;
-        height: 10%;
-        margin: 0;
-        padding: 0;
-        background-color: red;
-        text-align: center;
-        #usa{margin-left: 25%;}
-        #tablemt{margin-left: 25%}
+/* aboutus */
 
